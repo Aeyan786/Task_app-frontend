@@ -9,7 +9,7 @@ import NewTask from './Screens/NewTask'
 import AllTasks from './Screens/AllTasks'
 import EditTask from './Screens/EditTask'
 import ProtectedRoute from './components/auth/ProtectedRoute'
-import UserRoute from './components/auth/userRoute'
+import UserRoute from './components/auth/UserRoute'
 
 const App = () => {
   return (
