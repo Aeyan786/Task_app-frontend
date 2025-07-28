@@ -4,7 +4,6 @@ import { Label } from "@/components/ui/label";
 import { USER_END_POINT } from "@/lib/Endpoint";
 import { setLoading, setUser } from "@/Redux/Slice/authSlice";
 import axios from "axios";
-import { Loader2 } from "lucide-react";
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -24,7 +23,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      dispatch(setLoading(true));
+      // dispatch(setLoading(true));
       const response = await axios.post(`${USER_END_POINT}/login`, input, {
         withCredentials: true,
       });
