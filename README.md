@@ -1,12 +1,56 @@
-# React + Vite
+# 📝 Task Management App (MERN Stack Developer Test)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack **Task Management Application** built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). The application allows users to register, log in, and manage tasks (create, update, delete, view) with full JWT-based authentication and protected routes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+- **Frontend (Vercel):** [https://task-app-frontend-zeta.vercel.app]
+- **Backend (Vercel):** [https://task-app-backend-lac.vercel.app]
+- **GitHub Repositories:**
+  - [Frontend Repository](https://github.com/Aeyan786/Task_app-frontend.git)
+  - [Backend Repository](https://github.com/Aeyan786/Task_app_backend.git)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Features
+
+### 🔐 Authentication
+- User Registration & Login (with **JWT** and **cookies**)
+- Protected Routes using Middleware
+
+### 📋 Task Management
+- Dashboard to view all tasks
+- Add new task (title, description, due date, status)
+- Edit & delete task
+- Task ownership tied to authenticated user
+
+### 💡 Additional Features 
+- Task filtering/search 
+- Pagination for tasks 
+- Reminder notification for due tasks
+- State management Redux
+
+---
+
+## ⚙️ Tech Stack
+
+### 🧩 Frontend
+- React.js
+- React Router
+- Axios
+- TailwindCSS 
+- Redux 
+
+### 🔧 Backend
+- Node.js
+- Express.js
+- JWT for authentication
+- Bcrypt for password hashing
+- Express middleware for route protection
+
+### 🗂️ Database
+- MongoDB
+
+---
