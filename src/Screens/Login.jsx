@@ -78,7 +78,6 @@ const Login = () => {
 
           <Button
             type="submit"
-            disabled={loading}
             className="w-full mt-3 cursor-pointer bg-indigo-500 text-white py-2 rounded-md hover:bg-indigo-700 transition"
           >
             {loading ? "Please wait" : "Login"}
